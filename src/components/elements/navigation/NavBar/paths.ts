@@ -2,6 +2,7 @@ import { ISubNav } from '../SubNav/SubNav';
 
 const NAV_LINKS: ISubNav[] = [
   { label: 'Home', href: '/' },
+   { label: 'Stealth Labs home', href: 'https://www.stealth-labs.co.uk/' },
   {
     label: 'Transactions',
     href: '/transactions',
