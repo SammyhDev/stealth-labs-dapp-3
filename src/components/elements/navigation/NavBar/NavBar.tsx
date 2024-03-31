@@ -4,9 +4,7 @@ import NAV_LINKS from './paths';
 
 const NavBar = () => {
   return (
-    <div className="w-full h-20 bg-emerald-800 sticky top-0">
-      <div className="container mx-auto px-4 h-full">
-        <div className="flex justify-between items-center h-full">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
           {/* Add your Logo component here */}
           <ul className="hidden md:flex gap-x-6 text-white">
             {NAV_LINKS.map((link) => (
