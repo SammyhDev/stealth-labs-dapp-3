@@ -5,12 +5,12 @@ const Home = () => {
   return (
     <VStack w={'full'}>
       <Heading size="md" marginBottom={6}>
-        Ethereum Boilerplate
+        Stealth Labs wallet connect
       </Heading>
       <List spacing={3}>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          Moralis authentication
+          Wallet connect authentication
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
@@ -35,10 +35,6 @@ const Home = () => {
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
           Multichain Support
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          Using Moralis from client-side
         </ListItem>
         <ListItem>
           <ListIcon as={SettingsIcon} color="green.500" />
