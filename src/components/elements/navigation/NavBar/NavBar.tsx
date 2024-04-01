@@ -3,7 +3,8 @@ import Link from "next/link";
 
 import React, { useState } from "react";
 
-import NavItem from "./NavItem";
+import { NavItem } from '../NavItem';
+import NAV_LINKS from './paths';
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
